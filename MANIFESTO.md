@@ -30,6 +30,9 @@ I only record the paths I actually walked and the anomalies worth revisiting.
 - **Bugs are part of the landscape.**
   I fix them only when I notice them. Some might stay here forever, buried under the dust.
 
+- **Premature refactoring is the actual smell, not a reasonably ugly code.**
+  It is not worth the effort to make profound architectural decisions on a dev doodle.
+
 - **Finished, not expanded.**
   The repository grows by completing experiments, not by scaling them.
 
