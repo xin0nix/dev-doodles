@@ -18,6 +18,7 @@ add_compile_options(
     -Wdouble-promotion
     -Wformat=2
 )
-
+add_compile_options(-fsanitize=address -fno-omit-frame-pointer)
+add_link_options(-fsanitize=address)
 add_executable(doodle main.c)
 
