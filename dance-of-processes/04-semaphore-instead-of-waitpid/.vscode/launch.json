@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+   {
+      "name": "Launch",
+      "type": "codelldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/Debug/doodle",
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": false
+    },
+    {
+      "name": "Launch (Child)",
+      "type": "codelldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/out/Debug/doodle",
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": false,
+      "initCommands": [
+        "settings set target.process.follow-fork-mode child"
+      ]
+    }
+  ]
+}
+
