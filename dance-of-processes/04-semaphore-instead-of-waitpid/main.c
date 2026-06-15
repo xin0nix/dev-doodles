@@ -151,7 +151,6 @@ int parent(pid_t childPid, ShmObj *obj) {
   // for some milliseconds (actually it will be waited on after parent exits)
   assert(strnlen(layout->message, MESSAGE_CAP) < MESSAGE_CAP);
   printf("MESSAGE: %s\n", layout->message);
-  deinit_MemMap(mapping);
   return EXIT_SUCCESS;
 }
 

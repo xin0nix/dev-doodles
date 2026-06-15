@@ -16,4 +16,4 @@ UNK: -
 
 MAN:
 OBS: I feel (feel indeed) that semaphores act more of like condition variables rather than pure mutexes (maybe), need to rewind my understanding of this topic
-UNK: Basically, what is the relation (under the hood of course) between semaphores on the one side and condition_variables/mutexes on the other? And the elephant in the room for me how to increment a semaphore?
+UNK: Basically, what is the relation (under the hood of course) between semaphores on the one side and condition_variables/mutexes on the other?
